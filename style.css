@@ -49,13 +49,10 @@ p {
     display: block;
     float: right;
     width: 50%;
-    margin-top: 3%;
-    margin-right: -100px;
 }
 
 #panel {
     width: 100%;
-
 }
 
 #go {
@@ -75,14 +72,46 @@ p {
     color: black;
 }
 
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:1686px) {
     #panel {
         width: 0px;
     }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
     h1 {
         font-size: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        padding: 10px;
+    }
+    .window {
+        height: 780px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #panel {
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 60px;
+    }
+    #go {
+        margin-top: 40px;
     }
 }
