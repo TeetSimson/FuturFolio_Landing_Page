@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #0ef0bb,
+  "danger": #b80c03,
+  "purple": #6f42c1,
+  "blue": #007bff
+);
+
+.beta { color: color("purple"); }
+
+@import "node_modules/bootstrap/scss/bootstrap";
