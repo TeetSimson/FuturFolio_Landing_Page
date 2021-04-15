@@ -74,6 +74,26 @@ p {
     color: black;
 }
 
+#reg {
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 200;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    color: rgb(71, 71, 71);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#reg:hover {
+    background-color: rgb(0, 132, 255);
+    box-shadow: 0px 0px 40px 0px rgba(0, 132, 255, 0.61);
+    color: white;
+}
+
 @media only screen and (max-width:1686px) {
     #panel {
         width: 0px;
