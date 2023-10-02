@@ -58,7 +58,7 @@ p {
 
 .action {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 #go {
