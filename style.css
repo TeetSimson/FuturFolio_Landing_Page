@@ -56,6 +56,11 @@ p {
     width: 100%;
 }
 
+.action {
+    display: flex;
+    align-items: center;
+}
+
 #go {
     border: none;
     width: 200px;
@@ -128,6 +133,9 @@ p {
         display: flex;
         justify-content: center;
     }
+    .action {
+        flex-direction: column;
+    }
     #panel {
         width: 300px;
         margin-top: 200px;
@@ -135,5 +143,6 @@ p {
     }
     #go {
         margin-top: 40px;
+        margin-right: 0px;
     }
 }
